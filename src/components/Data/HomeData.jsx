@@ -9,9 +9,9 @@ export const departments = [
 ]
 
 export const doctors = [
-  { name: 'Dr. Maya Patel', role: 'Cardiologist', initials: 'MP', color: 'from-rose-200 to-orange-100' },
-  { name: 'Dr. Ethan Brooks', role: 'Neurologist', initials: 'EB', color: 'from-sky-200 to-indigo-100' },
-  { name: 'Dr. Sophia Chen', role: 'Pediatrician', initials: 'SC', color: 'from-emerald-200 to-teal-100' },
+  { name: 'Dr. Javed Rehmat', role: 'Cardiologist', initials: 'JR', color: 'from-rose-200 to-orange-100' },
+  { name: 'Dr. Mushtaq Ahmed', role: 'Neurologist', initials: 'MA', color: 'from-sky-200 to-indigo-100' },
+  { name: 'Dr. Waqar Mastoi', role: 'Pediatrician', initials: 'WM', color: 'from-emerald-200 to-teal-100' },
 ]
 
 export const services = [

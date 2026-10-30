@@ -24,14 +24,14 @@ const Home = () => {
             </p>
             <div className="mt-9 flex flex-col gap-3 sm:flex-row">
               <a
-                href="#contact"
+                href="/appointment"
                 className="inline-flex items-center justify-center rounded-xl bg-sky-700 px-6 py-3.5 font-semibold text-white shadow-lg shadow-sky-900/15 transition hover:bg-sky-800 focus:outline-none focus:ring-2 focus:ring-sky-600 focus:ring-offset-2"
               >
                 Book an appointment
                 <span className="ml-2" aria-hidden="true">→</span>
               </a>
               <a
-                href="#departments"
+                href="/departments"
                 className="inline-flex items-center justify-center rounded-xl border border-slate-300 bg-white px-6 py-3.5 font-semibold text-slate-700 transition hover:border-sky-300 hover:text-sky-800"
               >
                 Explore our care
@@ -111,7 +111,7 @@ const Home = () => {
               </div>
               <h3 className="mt-5 text-lg font-semibold text-slate-900">{department.name}</h3>
               <p className="mt-2 text-sm leading-6 text-slate-600">{department.detail}</p>
-              <a href="#contact" className="mt-5 inline-flex items-center text-sm font-semibold text-sky-700 hover:text-sky-900">
+              <a href="/contact" className="mt-5 inline-flex items-center text-sm font-semibold text-sky-700 hover:text-sky-900">
                 Learn more <span className="ml-2 transition group-hover:translate-x-1" aria-hidden="true">→</span>
               </a>
             </article>
@@ -141,7 +141,7 @@ const Home = () => {
                     <h3 className="font-semibold text-slate-900">{doctor.name}</h3>
                     <p className="mt-1 text-sm text-slate-500">{doctor.role}</p>
                   </div>
-                  <a href="#contact" aria-label={`Book an appointment with ${doctor.name}`} className="flex h-10 w-10 items-center justify-center rounded-full bg-sky-50 text-lg font-semibold text-sky-700 transition hover:bg-sky-700 hover:text-white">
+                  <a href="/contact" aria-label={`Book an appointment with ${doctor.name}`} className="flex h-10 w-10 items-center justify-center rounded-full bg-sky-50 text-lg font-semibold text-sky-700 transition hover:bg-sky-700 hover:text-white">
                     →
                   </a>
                 </div>
@@ -159,7 +159,7 @@ const Home = () => {
             <p className="mt-5 leading-7 text-slate-600">
               From the first question to follow-up care, we make it easier to get the services and support you need in one welcoming place.
             </p>
-            <a href="#contact" className="mt-7 inline-flex items-center font-semibold text-sky-700 hover:text-sky-900">
+            <a href="/contact" className="mt-7 inline-flex items-center font-semibold text-sky-700 hover:text-sky-900">
               Talk with our care team <span className="ml-2" aria-hidden="true">→</span>
             </a>
           </div>
@@ -188,7 +188,7 @@ const Home = () => {
               Call our friendly team to book an appointment, ask a question, or find the right department for you.
             </p>
             <a href="tel:+15550142000" className="mt-7 inline-flex rounded-xl bg-white px-6 py-3.5 font-semibold text-sky-900 transition hover:bg-sky-50">
-              Call (555) 014-2000
+              Call (+92) 348-5345530
             </a>
           </div>
           <div className="grid gap-4 sm:grid-cols-2">
